@@ -51,3 +51,14 @@ redirect towards that new instance.
 ●	If any of the server gets shut down then we can redirect the requests to the active servers
 
 Benchmarks are set for these types of ecosystems using tools like Jmeter for testing the efficiency of load balancer), Gluster test for testing how consistent and synchronised files are distributed between two clouds. Ettercap test for pen testing cloud networks and verifying leakage of information to an unauthorized third party. “Ifconfig” command is used to check the virtual ip translation. VPN test is done by pinging the particular instance. Testing performance and availability can be done on the following parameters- stress, load, performance, compatibility and latency.
+# We reached to the Conclusion that:
+
+●	Multi-cloud architecture drives improved and new levels of flexibility, scalability and reliability, allowing  to focus on evolving trends in business.
+
+●	Multi-cloud technologies are still new and quickly evolving, there is not much data available in terms of architectural deployment of various instance on multi-cloud
+
+●	A lot of dependencies on the cloud provider in regards to what can be achieved and deployed on multi-cloud
+
+●	multi -cloud is a cost effective solution and we can pay as we grow
+
+●	We can divide our service requests between different servers in our Virtual Private Cloud using Load balancer
