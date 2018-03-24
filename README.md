@@ -1,7 +1,7 @@
 # Multiple-Workloads-running-on-Multi-Cloud-Ecosystem-
 In the landscape of cloud computing, there are multiple cloud service providers that offer ever growing services such as IaaS, PaaS and SaaS to the consumers. The ability to deploy and manage multi-cloud systems (i.e., applications on multiple clouds) allows the extraction of the idiosyncrasies of each cloud solution and hence optimising the cost, performance and availability of the applications and services. This paper gives an overview survey of multi-cloud which is a combination of multiple cloud computing services to form a single heterogeneous architecture by concurrently using separate cloud providers e.g. Amazon Web Services and Google Cloud Platform for Infrastructure (IaaS), Platform (PaaS) and/or Software (SaaS). In the scope of this project, we deploy a multi-cloud Ecosystem using two cloud providers so that we can use different services for different workloads. We deploy a Load balancer that balances the workloads across different cloud providers.
 
-We use the following steps in the proper order to make sure the services deployed are working correctly
+# We use the following steps in the proper order to make sure the services deployed are working correctly
 
 ●	Deploying virtual private cloud (VPC) networks 
 
@@ -14,6 +14,8 @@ We use the following steps in the proper order to make sure the services deploye
 ●	Create IPsec tunnels
 
 ●	Deploy Load Balancer
+
+
 # We use the following best practices guidelines when deploying the multi-cloud solution.
 
 ●	Place both VPCs in an intended region or zone on both AWS and GCP
@@ -48,4 +50,4 @@ redirect towards that new instance.
 
 ●	If any of the server gets shut down then we can redirect the requests to the active servers
 
-# Benchmarks are set for these types of ecosystems using tools like Jmeter for testing the efficiency of load balancer), Gluster test for testing how consistent and synchronised files are distributed between two clouds. Ettercap test for pen testing cloud networks and verifying leakage of information to an unauthorized third party. “Ifconfig” command is used to check the virtual ip translation. VPN test is done by pinging the particular instance. Testing performance and availability can be done on the following parameters- stress, load, performance, compatibility and latency
+Benchmarks are set for these types of ecosystems using tools like Jmeter for testing the efficiency of load balancer), Gluster test for testing how consistent and synchronised files are distributed between two clouds. Ettercap test for pen testing cloud networks and verifying leakage of information to an unauthorized third party. “Ifconfig” command is used to check the virtual ip translation. VPN test is done by pinging the particular instance. Testing performance and availability can be done on the following parameters- stress, load, performance, compatibility and latency.
