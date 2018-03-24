@@ -62,3 +62,5 @@ Benchmarks are set for these types of ecosystems using tools like Jmeter for tes
 ●	multi -cloud is a cost effective solution and we can pay as we grow
 
 ●	We can divide our service requests between different servers in our Virtual Private Cloud using Load balancer
+
+Please have a look at the screenshots file to verify in order to have a successfull Multi-Cloud Network
